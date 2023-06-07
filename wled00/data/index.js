@@ -1547,10 +1547,10 @@ function setEffectParameters(idx)
 			paOnOff[0] = paOnOff[0].substring(0,dPos);
 		}
 		if (paOnOff.length>0 && paOnOff[0] != "!") pall.innerHTML = paOnOff[0];
-		else                                       pall.innerHTML = '<i class="icons sel-icon" onclick="tglHex()">&#xe2b3;</i> Color palette';
+		else                                       pall.innerHTML = '<i class="icons sel-icon" onclick="tglHex()">&#xe2b3;</i> Farbpalette';
 	} else {
 		// disable palette list
-		pall.innerHTML = '<i class="icons sel-icon" onclick="tglHex()">&#xe2b3;</i> Color palette not used';
+		pall.innerHTML = '<i class="icons sel-icon" onclick="tglHex()">&#xe2b3;</i> Keine Farbpalette verwendet';
 		palw.style.display = "none";
 	}
 	// not all color selectors shown, hide palettes created from color selectors
@@ -1651,9 +1651,9 @@ function toggleNl()
 	nlA = !nlA;
 	if (nlA)
 	{
-		showToast(`Timer active. Your light will turn ${nlTar > 0 ? "on":"off"} ${nlMode ? "over":"after"} ${nlDur} minutes.`);
+		showToast(`Timer aktiviert. Dein Licht wird sich ${nlMode ? "nach":"in"} ${nlDur} Minuten ${nlTar > 0 ? "einschalten":"ausschalten"}.`);
 	} else {
-		showToast('Timer deactivated.');
+		showToast('Timer deaktiviert..');
 	}
 	var obj = {"nl": {"on": nlA}};
 	requestJson(obj);
