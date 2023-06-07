@@ -11,7 +11,13 @@
   </p>
 
 # Welcome to my fork of the awesome WLED Project! ✨
-This version will remove many of the blinking light effects and only leave calm color changes in.
+## My changes
+This version removes most of the light effects and only leaves calm color changes. The speed is also limited to 64 instead of 255.
+
+The currently available effects are:
+- Solid
+- Breath
+
 **I HAVE NO MEDICAL BACKGROUND; THIS IS ALL GUESSWORK; USE ON YOUR OWN RISK!**
 
 
