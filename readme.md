@@ -11,14 +11,20 @@
   </p>
 
 # Welcome to my fork of the awesome WLED Project! ✨
-## My changes
-This version removes most of the light effects and only leaves calm color changes. The speed is also limited to 64 instead of 255.
+## My changes for eplileptics
+This version **removes** most of the **light effects** and only leaves calm color changes. The **speed is also limited** to 64 instead of 255.
 
 The currently available effects are:
 - Solid
-- Breath
-
+- Breathe
+- Sweep
+- Sweep Random
+- Wipe
+- Wipe Random
+  
 **I HAVE NO MEDICAL BACKGROUND; THIS IS ALL GUESSWORK; USE ON YOUR OWN RISK!**
+
+**IF YOU HAVE CONCERNS ABOUT ONE OF THE PATTERNS, PLEASE CONTACT ME!**
 
 
 A fast and feature-rich implementation of an ESP8266/ESP32 webserver to control NeoPixel (WS2812B, WS2811, SK6812) LEDs or also SPI based chipsets like the WS2801 and APA102!
