@@ -11,7 +11,7 @@
   </p>
 
 # Welcome to my fork of the awesome WLED Project! ✨
-## My changes for eplileptics
+## My changes for epilepctics
 This version **removes** most of the **light effects** and only leaves calm color changes. The **speed is also limited** to 64 instead of 255.
 
 The currently available effects are:
